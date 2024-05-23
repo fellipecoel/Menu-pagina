@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>Menu paginas</title>
    <style>
     *{
@@ -40,14 +41,57 @@
     h1{
         font-size: 50px;
         margin-left: 80px;
-        margin-right: 20px;
+        margin-right: 60px;
         padding-top: 40px;
         color: beige;  
     }
 
-   
+    footer{
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .socialIcon a i{
+        font-size: 20px;
 
-    .footerContainer{
+        padding: 0px;
+        opacity: 0.9;
+    }
+
+    
+
+    .socialIcon a:hover{
+        background-color: rgb(70, 14, 87);
+        transition: 0.7;
+        border: 20px 1 solid;
+    }
+    .socialIcon a:hover i{
+        color: rgb(255, 255, 255);
+        transition: 0.5s;
+        
+    }
+
+    .footerNav ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footerNav ul li a{
+        color: rgb(0, 0, 0);
+        margin: 30px;
+        text-decoration: none;
+        font-size: 20px;
+        opacity: 0.7;
+        transition: 0.7;
+    }
+
+    .footerNav li{
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+
+
+	.footerContainer{
         width: 100%;
         padding: 70px 30px 20px;
     }
@@ -55,31 +99,31 @@
     socialIcon{
         display: flex;
         justify-content: center;
+        margin-top: 50px;
     }
 
     .socialIcon a{
         text-decoration: none;
-        padding: 20px;
+        padding: 30px;
         background-color: rgb(0, 0, 0);
-        margin: 10px;
-        
+        margin: 20px; 
+        border-radius: 50%;
     }
 
-    .socialIcon a i{
-        font-size: 3em;
-        opacity: 0.9;
-    }
+   footerBottom{
+    padding: 20px;
+    text-align: center;
+   }
 
-    .socialIcon a:hover{
-        background-color: rgb(0, 0, 0);
-        transition: 0.5;
-    }
-    .socialIcon a:hover i{
-        color: beige;
-        transition: 0.5;
-        
-    }
+   .footerBottom p{
+    color: blueviolet;
+    padding-top: 80px;
+   }
+  
+    
    </style>
+
+
 </head>
 <body>
     <header>
@@ -94,7 +138,7 @@
         </div>
     </header>
     <h1>Contato</h1>
- 
+    
     <footer>
         <div class="footerContainer">
             <div class="socialIcon">
@@ -108,15 +152,7 @@
     
                 <a href=""><i class="fa-brands fa-github"></i></a>
             </div>
-            <div class="footerNav">
-            <ul>
-                <li><a href="">whatsapp</a></li>
-                <li><a href="">instagram</a></li>
-                <li><a href="">facebook</a></li>
-                <li><a href="">linkedin</a></li>
-                <li><a href="">github</a></li>
-          </ul>
-          </div>
+         
           <div class="footerBottom">
             <p>Copyright &copy;2024; Designed by 
                 <span class="deseigner">Faheem</span></p>
